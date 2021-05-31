@@ -22,6 +22,7 @@ function UserProfile({userInfo, tryNext, itsMe}){
         let filteredFollowingList = following.filter((item)=> userInfo.email !== item.email);
         localStorage.setItem("followeds", JSON.stringify(filteredFollowingList));
         setFollowing(filteredFollowingList);
+        myData.setFollowing(filteredFollowingList);
         setFollowed(false);
     }
 

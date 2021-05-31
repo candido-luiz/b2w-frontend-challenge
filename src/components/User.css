@@ -186,7 +186,9 @@ body{ background-color: #202024;}
     font-weight: bold;
     border: none;
 }
-
+.unfollow-btn:hover{
+    background-color: #390a77;
+}
 @media screen and (max-width: 1200px ) {
     .header-content, .user{
         max-width: 880px;

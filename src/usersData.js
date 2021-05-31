@@ -15,6 +15,10 @@ export const myData = {
         this.following.push(user);
         this.emailFollowing.push(email);
         localStorage.setItem("followeds", JSON.stringify(this.following));
+    },
+    
+    setFollowing: function(followingList){
+        this.following = followingList;
     }
 }
 
