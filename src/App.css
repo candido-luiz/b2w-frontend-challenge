@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #202024;
+}
+
+.main{
+    /* min-height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 35px;
+    background: linear-gradient(to bottom,#390a77, #9022f3 30%, #202024 30%);
+}
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: #390a77;
+    border-bottom: 1px solid #5a5a5d;
+}
+.main, .header{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.main h1{
+    color: #fff;
+}
+
+@media screen and (max-width: 620px) {
+    .main h1{
+        font-size: 25px;
+    }
+}

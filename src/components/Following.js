@@ -3,6 +3,8 @@ import {FollowingContext} from '../FollowingContext';
 import FollowingList from './FollowingList';
 import {IoIosArrowDown, IoIosArrowUp} from 'react-icons/io';
 
+import './Following.css';
+
 function Following(){
     const [following, ] = useContext(FollowingContext);
     const [showList, setShowList] = useState(false);

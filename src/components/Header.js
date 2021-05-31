@@ -1,6 +1,7 @@
 import React from 'react';
-// import {myData} from '../usersData';
 import Following from './Following';
+
+import './Header.css'
 
 function Header(){
     return (

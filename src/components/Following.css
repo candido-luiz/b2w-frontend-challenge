@@ -1,0 +1,15 @@
+.dropdown{
+    position: relative;
+    
+    padding: 5px 10px;
+}
+.dropdown-clicked{
+    width: 250px;
+    background-color: #2c2c32;
+}
+.dropdown-btn{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    cursor: pointer;
+}

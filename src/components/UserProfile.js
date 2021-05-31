@@ -2,6 +2,8 @@ import React, { useEffect, useState, useContext } from 'react';
 import {myData} from '../usersData';
 import {FollowingContext} from '../FollowingContext';
 
+import './UserProfile.css';
+
 function UserProfile({userInfo, tryNext, itsMe}){
     const [followed, setFollowed] = useState(false);
     const [following, setFollowing] = useContext(FollowingContext);

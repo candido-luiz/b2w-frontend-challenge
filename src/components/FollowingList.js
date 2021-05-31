@@ -1,6 +1,8 @@
 import React from 'react';
 import FollowedUser from './FollowedUser';
 
+import './FollowingList.css';
+
 function FollowingList({users}){
     return(
         <ul className="following-list">

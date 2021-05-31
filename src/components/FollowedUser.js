@@ -1,6 +1,8 @@
 import React, { useContext } from 'react';
 import {FollowingContext} from '../FollowingContext';
 
+import './FollowedUser.css';
+
 function FollowedUser({ user }){
 
     const [following, setFollowing] = useContext(FollowingContext);
