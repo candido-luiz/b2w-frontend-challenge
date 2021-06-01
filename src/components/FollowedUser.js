@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import {FollowingContext} from '../FollowingContext';
+import {myData} from '../usersData'
 
 import './FollowedUser.css';
 
@@ -11,6 +12,7 @@ function FollowedUser({ user }){
         let filteredFollowingList = following.filter((item)=> user.email !== item.email);
         localStorage.setItem("followeds", JSON.stringify(filteredFollowingList));
         setFollowing(filteredFollowingList);
+        myData.setFollowing(filteredFollowingList);
     }
 
     return(
